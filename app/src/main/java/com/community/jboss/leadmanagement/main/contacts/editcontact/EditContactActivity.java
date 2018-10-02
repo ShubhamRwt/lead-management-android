@@ -114,7 +114,7 @@ public class EditContactActivity extends AppCompatActivity {
     //TODO Add multiple numbers
     private void saveContact() {
         // Check is Name or Password is empty
-        if (!checkEditText(contactNameField, "Please enter name")||!checkNo(contactNumberField,"Enter Correct no.")
+        if (!checkEditText(contactNameField, "Please enter name")||!checkNo(contactNumberField,"Enter correct no.")
                 || !checkEditText(contactNumberField, "Please enter number")) {
             return;
         }
